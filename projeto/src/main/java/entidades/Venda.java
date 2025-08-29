@@ -12,6 +12,7 @@ import jakarta.persistence.ManyToOne;
 public class Venda {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    public Integer codigo;
     public LocalDateTime horario;
     public double valorTotal;
     public int quantidadeTotal;
