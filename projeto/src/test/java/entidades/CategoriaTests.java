@@ -18,4 +18,5 @@ public class CategoriaTests {
         
         Assertions.assertEquals(categoria.codigo, 11);
     }
+
 }
