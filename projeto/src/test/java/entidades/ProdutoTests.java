@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 
 import io.quarkus.test.junit.QuarkusTest;
 import jakarta.transaction.Transactional;
-import net.bytebuddy.asm.Advice.Local;
 
 @QuarkusTest
 public class ProdutoTests {
